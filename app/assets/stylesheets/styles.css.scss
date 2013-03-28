@@ -1,5 +1,5 @@
-$baseFontFamily: Enriqueta;
-@import url(http://fonts.googleapis.com/css?family=Enriqueta);
+$baseFontFamily: Sintony;
+@import url(http://fonts.googleapis.com/css?family=Sintony);
 
 $btnPrimaryBackground: green;
 $navbarBackgroundHighlight: white;
@@ -10,14 +10,26 @@ $navbarLinkColor: green;
 @import 'bootstrap';
 
 body {
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 @import 'bootstrap-responsive';
 
+.nav {
+	color: $grayLight;
+	a {
+		color: #72542D;
+	}
+}
+
 .navbar-inner {
 	@include box-shadow(none !important);
 	border: 0;
+}
+
+.hero-unit {
+	background-color: #F4F475;
+	color: #72542D;
 }
 
 .footer {
